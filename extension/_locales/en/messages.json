@@ -1,0 +1,566 @@
+{
+  "extName": {
+    "message": "Neo eTL"
+  },
+  "extDescription": {
+    "message": "A new interface for SNU myETL. Read-only, runs only on myetl.snu.ac.kr, no servers and no tracking."
+  },
+  "statusOn": {
+    "message": "On for myETL"
+  },
+  "statusOff": {
+    "message": "Turned off"
+  },
+  "statusPausedUntil": {
+    "message": "Paused until $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "newInterface": {
+    "message": "New interface"
+  },
+  "classicDark": {
+    "message": "Dark mode on other pages"
+  },
+  "examSafety": {
+    "message": "Exam safety"
+  },
+  "pause1h": {
+    "message": "Pause 1 hour"
+  },
+  "pause3h": {
+    "message": "Pause 3 hours"
+  },
+  "turnOff": {
+    "message": "Turn off"
+  },
+  "resume": {
+    "message": "Turn back on"
+  },
+  "openExtensionSettings": {
+    "message": "Disable completely in Chrome settings"
+  },
+  "today": {
+    "message": "Today"
+  },
+  "tomorrow": {
+    "message": "Tomorrow"
+  },
+  "courses": {
+    "message": "Courses"
+  },
+  "course": {
+    "message": "Course"
+  },
+  "classicView": {
+    "message": "Classic myETL"
+  },
+  "menu": {
+    "message": "Menu"
+  },
+  "refresh": {
+    "message": "Refresh"
+  },
+  "loading": {
+    "message": "Loading…"
+  },
+  "loadFailed": {
+    "message": "Couldn't load this from myETL."
+  },
+  "notLoggedIn": {
+    "message": "Couldn't reach myETL. Check that you're logged in, then refresh."
+  },
+  "untitled": {
+    "message": "Untitled"
+  },
+  "unread": {
+    "message": "Unread"
+  },
+  "back": {
+    "message": "All announcements"
+  },
+  "openOriginal": {
+    "message": "Open in myETL"
+  },
+  "overdue": {
+    "message": "Overdue"
+  },
+  "upcoming": {
+    "message": "Coming up"
+  },
+  "nothingDue": {
+    "message": "Nothing due in the next 14 days."
+  },
+  "recentAnnouncements": {
+    "message": "Recent announcements"
+  },
+  "noAnnouncements": {
+    "message": "No announcements."
+  },
+  "submitted": {
+    "message": "Submitted"
+  },
+  "notSubmitted": {
+    "message": "Not submitted"
+  },
+  "excused": {
+    "message": "Excused"
+  },
+  "noDueDate": {
+    "message": "No due date"
+  },
+  "points": {
+    "message": "$COUNT$ pts",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "typeQuiz": {
+    "message": "Quiz"
+  },
+  "sections": {
+    "message": "Course sections"
+  },
+  "sectionOverview": {
+    "message": "Overview"
+  },
+  "sectionAssignments": {
+    "message": "Assignments"
+  },
+  "sectionAnnouncements": {
+    "message": "Announcements"
+  },
+  "sectionFiles": {
+    "message": "Files"
+  },
+  "upcomingAssignments": {
+    "message": "Coming up"
+  },
+  "noUpcoming": {
+    "message": "Nothing coming up."
+  },
+  "assignmentsMissing": {
+    "message": "Overdue"
+  },
+  "assignmentsUpcoming": {
+    "message": "Coming up"
+  },
+  "assignmentsUndated": {
+    "message": "No due date"
+  },
+  "assignmentsPast": {
+    "message": "Past"
+  },
+  "noAssignments": {
+    "message": "No assignments."
+  },
+  "filesUnavailable": {
+    "message": "Files unavailable."
+  },
+  "locked": {
+    "message": "Locked"
+  },
+  "sectionNumber": {
+    "message": "Section $NUMBER$",
+    "placeholders": {
+      "number": {
+        "content": "$1"
+      }
+    }
+  },
+  "done": {
+    "message": "Done"
+  },
+  "home": {
+    "message": "Home"
+  },
+  "noCourses": {
+    "message": "No visible courses."
+  },
+  "nothingDueShort": {
+    "message": "None"
+  },
+  "otherPages": {
+    "message": "Other course pages"
+  },
+  "applyCode": {
+    "message": "Apply"
+  },
+  "applyCss": {
+    "message": "Apply CSS"
+  },
+  "attempts": {
+    "message": "$N$ attempts",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "badCode": {
+    "message": "That isn’t a Neo eTL theme code."
+  },
+  "cardColors": {
+    "message": "Card colours"
+  },
+  "cardStyle": {
+    "message": "Card style"
+  },
+  "close": {
+    "message": "Close"
+  },
+  "colorAccent": {
+    "message": "Accent"
+  },
+  "colorBackground": {
+    "message": "Background"
+  },
+  "colorSidebar": {
+    "message": "Sidebar"
+  },
+  "condensedCards": {
+    "message": "Compact course cards"
+  },
+  "copied": {
+    "message": "Copied"
+  },
+  "copyCode": {
+    "message": "Copy"
+  },
+  "customCss": {
+    "message": "Your own CSS"
+  },
+  "due": {
+    "message": "Due"
+  },
+  "font": {
+    "message": "Font"
+  },
+  "font_apple": {
+    "message": "Apple"
+  },
+  "font_mono": {
+    "message": "Mono"
+  },
+  "font_rounded": {
+    "message": "Rounded"
+  },
+  "font_serif": {
+    "message": "Serif"
+  },
+  "gradeCurrent": {
+    "message": "Current grade"
+  },
+  "gradesUnavailable": {
+    "message": "Grades unavailable."
+  },
+  "graded": {
+    "message": "Graded"
+  },
+  "groupWeight": {
+    "message": "$W$% of the grade",
+    "placeholders": {
+      "w": {
+        "content": "$1"
+      }
+    }
+  },
+  "learningxTool": {
+    "message": "LearningX tool"
+  },
+  "markDone": {
+    "message": "Mark done"
+  },
+  "modeDark": {
+    "message": "Dark"
+  },
+  "modeLight": {
+    "message": "Light"
+  },
+  "moduleAssignment": {
+    "message": "Assignment"
+  },
+  "moduleDiscussion": {
+    "message": "Discussion"
+  },
+  "moduleExternalTool": {
+    "message": "Tool"
+  },
+  "moduleExternalUrl": {
+    "message": "Link"
+  },
+  "moduleFile": {
+    "message": "File"
+  },
+  "modulePage": {
+    "message": "Page"
+  },
+  "moduleQuiz": {
+    "message": "Quiz"
+  },
+  "moduleProgress": {
+    "message": "$DONE$ of $TOTAL$ done",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "modulesUnavailable": {
+    "message": "Modules unavailable."
+  },
+  "moreOptions": {
+    "message": "More"
+  },
+  "noGrades": {
+    "message": "No graded work yet."
+  },
+  "noModules": {
+    "message": "No modules."
+  },
+  "noSyllabus": {
+    "message": "No syllabus."
+  },
+  "notCounted": {
+    "message": "Not counted"
+  },
+  "palette_candy": {
+    "message": "Candy"
+  },
+  "palette_course": {
+    "message": "myETL colours"
+  },
+  "palette_forest": {
+    "message": "Forest"
+  },
+  "palette_ocean": {
+    "message": "Ocean"
+  },
+  "palette_pastels": {
+    "message": "Pastels"
+  },
+  "palette_rainbow": {
+    "message": "Rainbow"
+  },
+  "palette_sunset": {
+    "message": "Sunset"
+  },
+  "palette_theme": {
+    "message": "Theme"
+  },
+  "pasteCode": {
+    "message": "Paste a theme code"
+  },
+  "sectionGrades": {
+    "message": "Grades"
+  },
+  "sectionModules": {
+    "message": "Modules"
+  },
+  "sectionSyllabus": {
+    "message": "Syllabus"
+  },
+  "style_gradient": {
+    "message": "Gradient"
+  },
+  "style_pattern": {
+    "message": "Pattern"
+  },
+  "style_solid": {
+    "message": "Solid"
+  },
+  "syllabusExternal": {
+    "message": "Open syllabus"
+  },
+  "tabIcons": {
+    "message": "SNU emblem in the browser tab"
+  },
+  "themeAuto": {
+    "message": "Auto"
+  },
+  "themeCode": {
+    "message": "Theme code"
+  },
+  "themeCustom": {
+    "message": "Your own"
+  },
+  "themes": {
+    "message": "Themes"
+  },
+  "timeLimit": {
+    "message": "$MIN$ min",
+    "placeholders": {
+      "min": {
+        "content": "$1"
+      }
+    }
+  },
+  "wallpaper": {
+    "message": "Background"
+  },
+  "wallpaperImage": {
+    "message": "My picture…"
+  },
+  "wallpaperNone": {
+    "message": "None"
+  },
+  "wallpaperTheme": {
+    "message": "Theme"
+  },
+  "cover": {
+    "message": "Cover"
+  },
+  "changeCover": {
+    "message": "Choose a cover picture"
+  },
+  "removeCover": {
+    "message": "Remove cover"
+  },
+  "requirementDone": {
+    "message": "Done"
+  },
+  "requirementTodo": {
+    "message": "To do"
+  },
+  "pages": {
+    "message": "Pages"
+  },
+  "dashboard": {
+    "message": "Dashboard"
+  },
+  "calendarPage": {
+    "message": "Calendar"
+  },
+  "inbox": {
+    "message": "Inbox"
+  },
+  "more": {
+    "message": "More"
+  },
+  "cardOptions": {
+    "message": "Card options"
+  },
+  "openCourse": {
+    "message": "Open course"
+  },
+  "tracker": {
+    "message": "Tracker"
+  },
+  "courseFilter": {
+    "message": "Course"
+  },
+  "previous": {
+    "message": "Previous"
+  },
+  "next": {
+    "message": "Next"
+  },
+  "periodDay": {
+    "message": "Day"
+  },
+  "periodWeek": {
+    "message": "Week"
+  },
+  "periodMonth": {
+    "message": "Month"
+  },
+  "tabDue": {
+    "message": "Due"
+  },
+  "tabDone": {
+    "message": "Done"
+  },
+  "tabNews": {
+    "message": "Announcements"
+  },
+  "dueSoon": {
+    "message": "Due soon"
+  },
+  "dueToday": {
+    "message": "Due today"
+  },
+  "dueThisWeek": {
+    "message": "Due this week"
+  },
+  "dueThisMonth": {
+    "message": "Due this month"
+  },
+  "doneInPeriod": {
+    "message": "Done"
+  },
+  "font_theme": {
+    "message": "Theme"
+  },
+  "font_sans": {
+    "message": "Sans"
+  },
+  "pictureUnreadable": {
+    "message": "That picture couldn’t be read. Try a JPEG or PNG."
+  },
+  "pictureTooBig": {
+    "message": "That picture is too large."
+  },
+  "pictureNotSaved": {
+    "message": "The picture couldn’t be saved: the browser’s storage for Neo eTL is full."
+  },
+  "customise": {
+    "message": "Themes and customisation"
+  },
+  "dueAt": {
+    "message": "Due $WHEN$",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "noTasks": {
+    "message": "No tasks"
+  },
+  "period": {
+    "message": "Period"
+  },
+  "profile": {
+    "message": "Profile and settings on myETL"
+  },
+  "recentFeedback": {
+    "message": "Recent feedback"
+  },
+  "noFeedback": {
+    "message": "No grades or comments yet."
+  },
+  "scoreOutOf": {
+    "message": "$SCORE$ out of $POINTS$",
+    "placeholders": {
+      "score": {
+        "content": "$1"
+      },
+      "points": {
+        "content": "$2"
+      }
+    }
+  },
+  "snu": {
+    "message": "Seoul National University"
+  },
+  "todoList": {
+    "message": "To-do list"
+  },
+  "allCoursesPage": {
+    "message": "Courses"
+  },
+  "preview": {
+    "message": "Preview"
+  },
+  "font_personal": {
+    "message": "Compagnon / NanumSquare"
+  }
+}

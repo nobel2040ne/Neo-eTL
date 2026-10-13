@@ -1,0 +1,566 @@
+{
+  "extName": {
+    "message": "Neo eTL"
+  },
+  "extDescription": {
+    "message": "서울대 myETL의 새 인터페이스. 읽기 전용이며 myetl.snu.ac.kr에서만 동작하고, 외부 서버와 추적이 없습니다."
+  },
+  "statusOn": {
+    "message": "myETL에서 켜져 있음"
+  },
+  "statusOff": {
+    "message": "꺼져 있음"
+  },
+  "statusPausedUntil": {
+    "message": "$TIME$까지 일시 중지",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "newInterface": {
+    "message": "새 인터페이스"
+  },
+  "classicDark": {
+    "message": "다른 페이지 다크 모드"
+  },
+  "examSafety": {
+    "message": "시험 안전"
+  },
+  "pause1h": {
+    "message": "1시간 일시 중지"
+  },
+  "pause3h": {
+    "message": "3시간 일시 중지"
+  },
+  "turnOff": {
+    "message": "끄기"
+  },
+  "resume": {
+    "message": "다시 켜기"
+  },
+  "openExtensionSettings": {
+    "message": "Chrome 설정에서 완전히 끄기"
+  },
+  "today": {
+    "message": "오늘"
+  },
+  "tomorrow": {
+    "message": "내일"
+  },
+  "courses": {
+    "message": "강의"
+  },
+  "course": {
+    "message": "강의"
+  },
+  "classicView": {
+    "message": "기존 화면"
+  },
+  "menu": {
+    "message": "메뉴"
+  },
+  "refresh": {
+    "message": "새로고침"
+  },
+  "loading": {
+    "message": "불러오는 중…"
+  },
+  "loadFailed": {
+    "message": "myETL에서 불러오지 못했습니다."
+  },
+  "notLoggedIn": {
+    "message": "myETL에 연결하지 못했습니다. 로그인 상태를 확인한 뒤 새로고침하세요."
+  },
+  "untitled": {
+    "message": "제목 없음"
+  },
+  "unread": {
+    "message": "읽지 않음"
+  },
+  "back": {
+    "message": "공지 목록"
+  },
+  "openOriginal": {
+    "message": "myETL에서 열기"
+  },
+  "overdue": {
+    "message": "마감 지남"
+  },
+  "upcoming": {
+    "message": "다가오는 일정"
+  },
+  "nothingDue": {
+    "message": "14일 이내 마감이 없습니다."
+  },
+  "recentAnnouncements": {
+    "message": "최근 공지"
+  },
+  "noAnnouncements": {
+    "message": "공지가 없습니다."
+  },
+  "submitted": {
+    "message": "제출함"
+  },
+  "notSubmitted": {
+    "message": "미제출"
+  },
+  "excused": {
+    "message": "면제"
+  },
+  "noDueDate": {
+    "message": "기한 없음"
+  },
+  "points": {
+    "message": "$COUNT$점",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "typeQuiz": {
+    "message": "퀴즈"
+  },
+  "sections": {
+    "message": "강의 메뉴"
+  },
+  "sectionOverview": {
+    "message": "개요"
+  },
+  "sectionAssignments": {
+    "message": "과제"
+  },
+  "sectionAnnouncements": {
+    "message": "공지"
+  },
+  "sectionFiles": {
+    "message": "파일"
+  },
+  "upcomingAssignments": {
+    "message": "다가오는 과제"
+  },
+  "noUpcoming": {
+    "message": "다가오는 과제가 없습니다."
+  },
+  "assignmentsMissing": {
+    "message": "마감 지남"
+  },
+  "assignmentsUpcoming": {
+    "message": "다가오는 과제"
+  },
+  "assignmentsUndated": {
+    "message": "기한 없음"
+  },
+  "assignmentsPast": {
+    "message": "지난 과제"
+  },
+  "noAssignments": {
+    "message": "과제가 없습니다."
+  },
+  "filesUnavailable": {
+    "message": "파일을 사용할 수 없습니다."
+  },
+  "locked": {
+    "message": "잠김"
+  },
+  "sectionNumber": {
+    "message": "$NUMBER$분반",
+    "placeholders": {
+      "number": {
+        "content": "$1"
+      }
+    }
+  },
+  "done": {
+    "message": "완료"
+  },
+  "home": {
+    "message": "홈"
+  },
+  "noCourses": {
+    "message": "표시할 강의가 없습니다."
+  },
+  "nothingDueShort": {
+    "message": "없음"
+  },
+  "otherPages": {
+    "message": "다른 강의 메뉴"
+  },
+  "applyCode": {
+    "message": "적용"
+  },
+  "applyCss": {
+    "message": "CSS 적용"
+  },
+  "attempts": {
+    "message": "$N$회 응시",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "badCode": {
+    "message": "Neo eTL 테마 코드가 아닙니다."
+  },
+  "cardColors": {
+    "message": "카드 색"
+  },
+  "cardStyle": {
+    "message": "카드 스타일"
+  },
+  "close": {
+    "message": "닫기"
+  },
+  "colorAccent": {
+    "message": "강조색"
+  },
+  "colorBackground": {
+    "message": "배경"
+  },
+  "colorSidebar": {
+    "message": "사이드바"
+  },
+  "condensedCards": {
+    "message": "강의 카드 작게"
+  },
+  "copied": {
+    "message": "복사됨"
+  },
+  "copyCode": {
+    "message": "복사"
+  },
+  "customCss": {
+    "message": "사용자 CSS"
+  },
+  "due": {
+    "message": "마감"
+  },
+  "font": {
+    "message": "글꼴"
+  },
+  "font_apple": {
+    "message": "Apple"
+  },
+  "font_mono": {
+    "message": "고정폭"
+  },
+  "font_rounded": {
+    "message": "둥근"
+  },
+  "font_serif": {
+    "message": "명조"
+  },
+  "gradeCurrent": {
+    "message": "현재 성적"
+  },
+  "gradesUnavailable": {
+    "message": "성적을 사용할 수 없습니다."
+  },
+  "graded": {
+    "message": "채점됨"
+  },
+  "groupWeight": {
+    "message": "성적의 $W$%",
+    "placeholders": {
+      "w": {
+        "content": "$1"
+      }
+    }
+  },
+  "learningxTool": {
+    "message": "LearningX 도구"
+  },
+  "markDone": {
+    "message": "완료 표시"
+  },
+  "modeDark": {
+    "message": "다크"
+  },
+  "modeLight": {
+    "message": "라이트"
+  },
+  "moduleAssignment": {
+    "message": "과제"
+  },
+  "moduleDiscussion": {
+    "message": "토론"
+  },
+  "moduleExternalTool": {
+    "message": "도구"
+  },
+  "moduleExternalUrl": {
+    "message": "링크"
+  },
+  "moduleFile": {
+    "message": "파일"
+  },
+  "modulePage": {
+    "message": "페이지"
+  },
+  "moduleQuiz": {
+    "message": "퀴즈"
+  },
+  "moduleProgress": {
+    "message": "$TOTAL$개 중 $DONE$개 완료",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "modulesUnavailable": {
+    "message": "모듈을 사용할 수 없습니다."
+  },
+  "moreOptions": {
+    "message": "기타"
+  },
+  "noGrades": {
+    "message": "아직 채점된 과제가 없습니다."
+  },
+  "noModules": {
+    "message": "모듈이 없습니다."
+  },
+  "noSyllabus": {
+    "message": "강의계획서가 없습니다."
+  },
+  "notCounted": {
+    "message": "성적 미반영"
+  },
+  "palette_candy": {
+    "message": "캔디"
+  },
+  "palette_course": {
+    "message": "myETL 색"
+  },
+  "palette_forest": {
+    "message": "숲"
+  },
+  "palette_ocean": {
+    "message": "바다"
+  },
+  "palette_pastels": {
+    "message": "파스텔"
+  },
+  "palette_rainbow": {
+    "message": "무지개"
+  },
+  "palette_sunset": {
+    "message": "노을"
+  },
+  "palette_theme": {
+    "message": "테마"
+  },
+  "pasteCode": {
+    "message": "테마 코드 붙여넣기"
+  },
+  "sectionGrades": {
+    "message": "성적"
+  },
+  "sectionModules": {
+    "message": "모듈"
+  },
+  "sectionSyllabus": {
+    "message": "강의계획서"
+  },
+  "style_gradient": {
+    "message": "그라데이션"
+  },
+  "style_pattern": {
+    "message": "패턴"
+  },
+  "style_solid": {
+    "message": "단색"
+  },
+  "syllabusExternal": {
+    "message": "강의계획서 열기"
+  },
+  "tabIcons": {
+    "message": "브라우저 탭에 서울대 로고 표시"
+  },
+  "themeAuto": {
+    "message": "자동"
+  },
+  "themeCode": {
+    "message": "테마 코드"
+  },
+  "themeCustom": {
+    "message": "직접 만들기"
+  },
+  "themes": {
+    "message": "테마"
+  },
+  "timeLimit": {
+    "message": "$MIN$분",
+    "placeholders": {
+      "min": {
+        "content": "$1"
+      }
+    }
+  },
+  "wallpaper": {
+    "message": "배경"
+  },
+  "wallpaperImage": {
+    "message": "내 사진…"
+  },
+  "wallpaperNone": {
+    "message": "없음"
+  },
+  "wallpaperTheme": {
+    "message": "테마"
+  },
+  "cover": {
+    "message": "커버"
+  },
+  "changeCover": {
+    "message": "표지 사진 선택"
+  },
+  "removeCover": {
+    "message": "커버 지우기"
+  },
+  "requirementDone": {
+    "message": "완료"
+  },
+  "requirementTodo": {
+    "message": "해야 함"
+  },
+  "pages": {
+    "message": "페이지"
+  },
+  "dashboard": {
+    "message": "대시보드"
+  },
+  "calendarPage": {
+    "message": "캘린더"
+  },
+  "inbox": {
+    "message": "받은편지함"
+  },
+  "more": {
+    "message": "더 보기"
+  },
+  "cardOptions": {
+    "message": "카드 설정"
+  },
+  "openCourse": {
+    "message": "강의 열기"
+  },
+  "tracker": {
+    "message": "트래커"
+  },
+  "courseFilter": {
+    "message": "강의"
+  },
+  "previous": {
+    "message": "이전"
+  },
+  "next": {
+    "message": "다음"
+  },
+  "periodDay": {
+    "message": "일"
+  },
+  "periodWeek": {
+    "message": "주"
+  },
+  "periodMonth": {
+    "message": "월"
+  },
+  "tabDue": {
+    "message": "마감"
+  },
+  "tabDone": {
+    "message": "완료"
+  },
+  "tabNews": {
+    "message": "공지"
+  },
+  "dueSoon": {
+    "message": "곧 마감"
+  },
+  "dueToday": {
+    "message": "오늘 마감"
+  },
+  "dueThisWeek": {
+    "message": "이번 주 마감"
+  },
+  "dueThisMonth": {
+    "message": "이번 달 마감"
+  },
+  "doneInPeriod": {
+    "message": "완료"
+  },
+  "font_theme": {
+    "message": "테마"
+  },
+  "font_sans": {
+    "message": "고딕"
+  },
+  "pictureUnreadable": {
+    "message": "사진을 읽지 못했습니다. JPEG나 PNG를 써 보세요."
+  },
+  "pictureTooBig": {
+    "message": "사진이 너무 큽니다."
+  },
+  "pictureNotSaved": {
+    "message": "사진을 저장하지 못했습니다. Neo eTL 저장 공간이 가득 찼습니다."
+  },
+  "customise": {
+    "message": "테마와 꾸미기"
+  },
+  "dueAt": {
+    "message": "마감 $WHEN$",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "noTasks": {
+    "message": "할 일 없음"
+  },
+  "period": {
+    "message": "기간"
+  },
+  "profile": {
+    "message": "myETL 프로필과 설정"
+  },
+  "recentFeedback": {
+    "message": "최근 피드백"
+  },
+  "noFeedback": {
+    "message": "아직 성적이나 코멘트가 없습니다."
+  },
+  "scoreOutOf": {
+    "message": "$POINTS$점 중 $SCORE$점",
+    "placeholders": {
+      "score": {
+        "content": "$1"
+      },
+      "points": {
+        "content": "$2"
+      }
+    }
+  },
+  "snu": {
+    "message": "서울대학교"
+  },
+  "todoList": {
+    "message": "할 일 목록"
+  },
+  "allCoursesPage": {
+    "message": "전체 강의"
+  },
+  "preview": {
+    "message": "미리보기"
+  },
+  "font_personal": {
+    "message": "Compagnon / 나눔스퀘어"
+  }
+}

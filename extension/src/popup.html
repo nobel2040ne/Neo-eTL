@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <span class="mark" aria-hidden="true"></span>
+      <h1>Neo eTL</h1>
+    </header>
+    <p id="status" class="status"></p>
+
+    <section class="group">
+      <label class="row">
+        <span class="label" data-i18n="newInterface"></span>
+        <input type="checkbox" id="newInterface" class="switch" />
+      </label>
+      <label class="row">
+        <span class="label" data-i18n="themes"></span>
+        <select id="theme" class="select"></select>
+      </label>
+      <label class="row">
+        <span class="label" data-i18n="classicDark"></span>
+        <input type="checkbox" id="classicDark" class="switch" />
+      </label>
+    </section>
+
+    <section class="group exam">
+      <h2 data-i18n="examSafety"></h2>
+      <div class="buttons">
+        <button id="pause1" data-i18n="pause1h"></button>
+        <button id="pause3" data-i18n="pause3h"></button>
+        <button id="turnOff" data-i18n="turnOff"></button>
+        <button id="resume" class="primary" data-i18n="resume"></button>
+      </div>
+      <button id="openSettings" class="link" data-i18n="openExtensionSettings"></button>
+    </section>
+
+    <script src="settings.js"></script>
+    <script src="themes.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

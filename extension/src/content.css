@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "Neo Compagnon";
+  src: url("chrome-extension://__MSG_@@extension_id__/fonts/Compagnon-Roman.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  ascent-override: 78.5%;
+  descent-override: 19.5%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: "Neo Compagnon";
+  src: url("chrome-extension://__MSG_@@extension_id__/fonts/Compagnon-Medium.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  ascent-override: 78.5%;
+  descent-override: 19.5%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: "Neo Compagnon Letters";
+  src: url("chrome-extension://__MSG_@@extension_id__/fonts/Compagnon-Roman.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  ascent-override: 78.5%;
+  descent-override: 19.5%;
+  line-gap-override: 0%;
+  unicode-range: U+0030-0039, U+0041-005A, U+0061-007A, U+00C0-024F;
+}
+
+@font-face {
+  font-family: "Neo Compagnon Letters";
+  src: url("chrome-extension://__MSG_@@extension_id__/fonts/Compagnon-Medium.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  ascent-override: 78.5%;
+  descent-override: 19.5%;
+  line-gap-override: 0%;
+  unicode-range: U+0030-0039, U+0041-005A, U+0061-007A, U+00C0-024F;
+}
+
+@font-face {
+  font-family: "Neo NanumSquare";
+  src: url("chrome-extension://__MSG_@@extension_id__/fonts/NanumSquare-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neo NanumSquare";
+  src: url("chrome-extension://__MSG_@@extension_id__/fonts/NanumSquare-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neo Marcellus";
+  src: url("chrome-extension://__MSG_@@extension_id__/fonts/Marcellus-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neo Sligoil";
+  src: url("chrome-extension://__MSG_@@extension_id__/fonts/Sligoil-Micro.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neo Sligoil";
+  src: url("chrome-extension://__MSG_@@extension_id__/fonts/Sligoil-MicroBold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neo Pretendard";
+  src: url("chrome-extension://__MSG_@@extension_id__/fonts/Pretendard-Regular.subset.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neo Pretendard";
+  src: url("chrome-extension://__MSG_@@extension_id__/fonts/Pretendard-SemiBold.subset.woff2") format("woff2");
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neo Pretendard";
+  src: url("chrome-extension://__MSG_@@extension_id__/fonts/Pretendard-Bold.subset.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+
+html.neo-app-active body > :not(#neo-app-root) {
+  display: none !important;
+}
+
+html.neo-app-active,
+html.neo-app-active body {
+  overflow: hidden !important;
+  background: var(--neo-bg, #FFFFFF) !important;
+}
+
+html.neo-etl-dark {
+  filter: invert(1) hue-rotate(180deg);
+  background-color: #fff !important;
+}
+
+html.neo-etl-dark img,
+html.neo-etl-dark picture,
+html.neo-etl-dark video,
+html.neo-etl-dark canvas,
+html.neo-etl-dark iframe,
+html.neo-etl-dark embed,
+html.neo-etl-dark object,
+html.neo-etl-dark [style*="background-image"],
+html.neo-etl-dark #header {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+html.neo-etl-dark #header img,
+html.neo-etl-dark #header [style*="background-image"] {
+  filter: none;
+}

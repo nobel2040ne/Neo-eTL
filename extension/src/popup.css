@@ -1,0 +1,278 @@
+@font-face {
+  font-family: "Neo Compagnon";
+  src: url("../fonts/Compagnon-Roman.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  ascent-override: 78.5%;
+  descent-override: 19.5%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: "Neo Compagnon";
+  src: url("../fonts/Compagnon-Medium.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  ascent-override: 78.5%;
+  descent-override: 19.5%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: "Neo Compagnon Letters";
+  src: url("../fonts/Compagnon-Roman.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  ascent-override: 78.5%;
+  descent-override: 19.5%;
+  line-gap-override: 0%;
+  unicode-range: U+0030-0039, U+0041-005A, U+0061-007A, U+00C0-024F;
+}
+
+@font-face {
+  font-family: "Neo Compagnon Letters";
+  src: url("../fonts/Compagnon-Medium.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  ascent-override: 78.5%;
+  descent-override: 19.5%;
+  line-gap-override: 0%;
+  unicode-range: U+0030-0039, U+0041-005A, U+0061-007A, U+00C0-024F;
+}
+
+@font-face {
+  font-family: "Neo NanumSquare";
+  src: url("../fonts/NanumSquare-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neo NanumSquare";
+  src: url("../fonts/NanumSquare-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neo Marcellus";
+  src: url("../fonts/Marcellus-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neo Sligoil";
+  src: url("../fonts/Sligoil-Micro.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neo Sligoil";
+  src: url("../fonts/Sligoil-MicroBold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neo Pretendard";
+  src: url("../fonts/Pretendard-Regular.subset.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Neo Pretendard";
+  src: url("../fonts/Pretendard-SemiBold.subset.woff2") format("woff2");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Neo Pretendard";
+  src: url("../fonts/Pretendard-Bold.subset.woff2") format("woff2");
+  font-weight: 700;
+}
+
+:root {
+  color-scheme: light dark;
+  --paper: #FFFFFF;
+  --line: #DFE2E5;
+  --raise: #C7CDD1;
+  --fill: #F2F3F4;
+  --text: #2D3B45;
+  --secondary: #6B7780;
+  --accent: #0F0F70;
+  --on: #0B874B;
+  --off: #B4570B;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #16171C;
+    --line: #2C2E36;
+    --raise: #3A3D47;
+    --fill: #22242B;
+    --text: #EDEEF2;
+    --secondary: #9EA3AE;
+    --accent: #A9A6FF;
+    --on: #5BD69A;
+    --off: #F2B35B;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  width: 320px;
+  margin: 0;
+  padding: 16px;
+  background: var(--paper);
+  color: var(--text);
+  font: 14px/1.5 "Neo Compagnon", "Neo NanumSquare", "SF Pro", -apple-system, "Neo Pretendard", sans-serif;
+  font-synthesis: none;
+  font-size-adjust: 0.43;
+  font-kerning: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+header { display: flex; align-items: center; gap: 10px; }
+header .mark { width: 22px; height: 22px; flex: none; border-radius: 6px; background: #8B7EC8; }
+
+h1 {
+  font-family: "Neo Marcellus", "Neo NanumSquare", sans-serif;
+  font-size-adjust: none;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.no-signature-fonts body { font-family: "Neo Pretendard", -apple-system, BlinkMacSystemFont, sans-serif; font-size-adjust: none; }
+.no-signature-fonts h1 { font-family: inherit; font-weight: 600; }
+
+h2 {
+  margin: 0 0 4px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.status {
+  margin: 2px 0 14px;
+  font-size: 12.5px;
+}
+
+.status.on { color: var(--on); }
+.status.off { color: var(--off); font-weight: 600; }
+
+.group {
+  padding: 12px 0;
+  border-top: 1px solid var(--line);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 6px 0;
+}
+
+label.row { cursor: pointer; }
+.label { display: block; font-weight: 600; }
+
+.exam h2 { margin-bottom: 10px; }
+
+.switch {
+  appearance: none;
+  flex: none;
+  position: relative;
+  width: 34px;
+  height: 20px;
+  margin: 0;
+  border-radius: 999px;
+  background: var(--line);
+  cursor: pointer;
+  transition: background 150ms;
+}
+
+.switch::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  transition: transform 150ms;
+}
+
+.switch:checked { background: var(--accent); }
+.switch:checked::after { transform: translateX(14px); }
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.buttons button {
+  padding: 5px 11px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  background: var(--paper);
+  box-shadow: 0 2px 0 var(--raise);
+  color: var(--text);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.buttons button:hover { background: var(--fill); }
+.buttons button:active { transform: translateY(2px); box-shadow: none; }
+.buttons button.primary { border-color: var(--accent); background: var(--accent); box-shadow: 0 2px 0 color-mix(in srgb, var(--accent) 60%, #000); color: #fff; }
+
+@media (prefers-color-scheme: dark) {
+  .buttons button.primary { color: #16171C; }
+}
+
+button.link {
+  margin-top: 12px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--secondary);
+  font: inherit;
+  font-size: 12px;
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, currentColor 40%, transparent);
+  text-underline-offset: 2px;
+  cursor: pointer;
+}
+
+button.link:hover { color: var(--text); }
+
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+
+[hidden] { display: none !important; }
+
+.select {
+  max-width: 150px;
+  padding: 4px 8px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+  box-shadow: 0 2px 0 var(--raise);
+  color: var(--text);
+  font: inherit;
+  font-size: 12.5px;
+}

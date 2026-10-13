@@ -1,0 +1,76 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extName__",
+  "description": "__MSG_extDescription__",
+  "version": "0.4.0",
+  "default_locale": "en",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "background": {
+    "service_worker": "src/background.js"
+  },
+  "action": {
+    "default_title": "Neo eTL",
+    "default_popup": "src/popup.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://myetl.snu.ac.kr/*"
+      ],
+      "exclude_matches": [
+        "https://myetl.snu.ac.kr/*quizzes*",
+        "https://myetl.snu.ac.kr/*external_tools*",
+        "https://myetl.snu.ac.kr/learningx/*",
+        "https://myetl.snu.ac.kr/lti/*",
+        "https://myetl.snu.ac.kr/*/lti/*"
+      ],
+      "js": [
+        "src/guard.js",
+        "src/settings.js",
+        "src/routes.js",
+        "src/api.js",
+        "src/data.js",
+        "src/sanitize.js",
+        "src/themes.js",
+        "src/ui.js",
+        "src/app-styles.js",
+        "src/app.js",
+        "src/content.js"
+      ],
+      "css": [
+        "src/content.css"
+      ],
+      "run_at": "document_start",
+      "all_frames": false
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "fonts/*.woff2",
+        "fonts/*.ttf",
+        "icons/snu-black-*.png",
+        "icons/snu-logo.png",
+        "icons/symbols/*.png"
+      ],
+      "matches": [
+        "https://myetl.snu.ac.kr/*"
+      ]
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "default-src 'self'; script-src 'self'; object-src 'none'; connect-src 'none'"
+  }
+}
